@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container div {
+            display: flex;
+        }
+
+        div {
+            border: 20px solid tomato;
+            height: 50px;
+            font-size: 1em;
+        }
+
+        .box-container {
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            height: 150px;
+            width: 150px;
+            border: 10px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div class="box-container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+    </div>
+</body>
+
+</html>
